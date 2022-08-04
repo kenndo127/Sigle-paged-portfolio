@@ -1,0 +1,208 @@
+body{
+	font-family: 'PT Sans Narrow', Arial, sans-serif;
+	text-rendering: optimizeLegibility !important;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image: url(../assets/slide1.jpg);
+    height: 500px;
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    overflow: hidden;
+    position: relative;
+}
+.header{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    top: 0;
+    left: 0;
+}
+.navbar{
+    padding: 20px;
+}
+.navbar .navbar-brand{
+    color: white;
+    margin-left: 4cm;
+    font-weight: bold;
+}
+.navbar .collapse{
+    margin-right: 5cm;
+}
+.navbar a{
+    margin: 3px;
+    color: white !important;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.navbar .dropdown-item{
+    color: black !important;
+    font-weight: normal;
+}
+.navbar .home{
+    color: turquoise !important;
+    border-bottom: 1px dashed turquoise;
+}
+.header h4{
+    margin-left: 2cm;
+    font-weight: 900;
+    font-size: 40px;
+    margin-top: 2cm;
+}
+.header p{
+    margin-left: 2cm;
+    margin-top: 10px;
+    font-size: 0.8rem;
+}
+.header .btn{
+    margin-left: 2cm;
+    border: 1px solid white;
+    color: white;
+    margin-top: 5px;
+    font-size: 0.8rem;
+}
+.header .btn-{
+    margin-left: 4px;
+    background: turquoise;
+    color: white;
+    border: 1px solid turquoise;
+    margin-top: 5px;
+    font-size: 0.8rem;
+}
+.services{
+    padding: 0 20px 50px 400px;
+    position: absolute;
+    margin-top: -100px;
+}
+@media only screen and (max-width: 600px){
+    .services {
+        padding: 30px;
+        position: relative;
+        margin-top: none;
+    }
+}
+.services .service{
+    background-color: white;
+    padding: 10px;
+    margin: 2px;
+    box-shadow: 7px 7px 10px #cbced1;
+}
+.services .service i{
+    color: turquoise;
+    font-size: 3rem;
+    margin-bottom: 5px;
+}
+.services .service h5{
+    font-weight: bold;
+    font-size: 15px;
+}
+.services .service p{
+    font-size: 0.8rem;
+    color: grey;
+}
+.creative{
+    margin-top: 120px;
+    padding: 10px;
+}
+@media only screen and (max-width: 600px){
+    .creative{
+        margin-top: 5px;
+    }
+    .creative p{
+        margin-top: 2px;
+    }
+}
+.creative h4{
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: capitalize;
+    margin-top: 60px;
+}
+.creative span{
+    color: turquoise;
+}
+.creative p{
+    font-size: 0.8rem;
+    color: darkslategrey;
+    margin: 20px 0 20px;
+}
+.creative .btn{
+    color: white;
+    background: turquoise;
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+}
+.creative .customer{
+    box-shadow: 7px 7px 10px #cbced1, -7px -7px 10px #fff;
+    margin-top: 5px;
+    padding: 20px 50px 20px 50px;
+}
+.creative .customer span{
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 5px;
+}
+.project{
+    padding: 20px 0 20px;
+}
+.project h4{
+    font-weight: bold;
+    text-transform: capitalize;
+    margin: 10px 0 10px;
+}
+.project h6{
+    font-size: 0.8rem;
+    color: grey;
+    margin-bottom: 10px;
+}
+.project .project-img img{
+    height: 250px;
+    width: 250px;
+    border-radius: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+.project .project-img2 img{
+    height: 450px;
+    width: 500px;
+    margin-left: 7px;
+}
+.about{
+    padding: 50px;
+    box-shadow: 7px 7px 20px #cbced1, -7px -7px 20px gainsboro;
+    margin-bottom: 40px;
+}
+.about img{
+    height: 200px;
+    width: 150px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.about .me{
+    margin-top: 2cm
+}
+.about h4{
+    font-weight: bold;
+    color: turquoise;
+    margin-top: 10px;
+}
+.about p{
+    font-size: 0.9rem;
+    margin: 5px 0 5px;
+}
+.about i{
+    margin: 5px;
+    height: 30px;
+    width: 30px;
+    background-color: turquoise;
+    color: white;
+    border-radius: 100%;
+    padding-top: 6px;
+    padding-left: 9px;
+}
