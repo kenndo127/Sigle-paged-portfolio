@@ -1,2 +1,2 @@
-# Sigle-paged-portfolio
-This is a simple landing page
+# Single-paged-portfolio
+This is a simple landing page for a portfolio website
